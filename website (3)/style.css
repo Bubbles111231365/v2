@@ -1,0 +1,141 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fbc2eb);
+  animation: gradient-animation 6s infinite;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+body.night-mode .btn:hover {
+  background: #555;  /* Darker hover effect */
+}
+
+/* Hero Section */
+.hero {
+  padding: 100px 20px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.hero.night-mode {
+  background: rgba(0, 0, 0, 0.9);  /* Darker background for night mode */
+}
+
+.team-member {
+  background: #f9f9f9;  /* Light background for team members */
+  color: #333;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+body.night-mode .team-member {
+  background: #444;  /* Dark background for night mode */
+  color: white;  /* White text for better visibility */
+}
+
+/* Buttons */
+.btn, button {
+  display: inline-block;
+  padding: 15px 30px;
+  background: #5865F2;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: transform 0.3s, background 0.3s;
+}
+
+body.night-mode .btn {
+  background: #444;  /* Darker button for night mode */
+  color: white;
+}
+
+body.night-mode .btn:hover {
+  background: #555;  /* Darker hover effect */
+}
+
+/* Fun Facts */
+#fun-facts {
+  background: #fff;
+  color: #333;
+  padding: 50px 20px;
+}
+
+body.night-mode #fun-facts {
+  background: #222;  /* Dark background for night mode */
+  color: #fff;  /* White text for better contrast */
+}
+
+/* Events */
+#events {
+  background: #fff;
+  padding: 50px 20px;
+}
+
+body.night-mode #events {
+  background: #333;  /* Dark background for events in night mode */
+  color: white;  /* White text for better visibility */
+}
+
+#events li {
+  background: #e0e0e0; /* Light background for event list items */
+  color: #333;
+}
+
+body.night-mode #events li {
+  background: #555; /* Darker background for event list items in night mode */
+  color: white;  /* White text for better contrast */
+}
+
+/* Particles.js Background */
+#particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.logo {
+  max-width: 100px; /* Adjust this value as needed to make the logo smaller */
+  display: block;
+  margin: 0 auto 20px;
+}
+/* Fun Interactions Section */
+#fun-interactions {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.fun-result {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.btn {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #1f2937;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #000;
+}
+
+
+
