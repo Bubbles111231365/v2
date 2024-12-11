@@ -137,5 +137,29 @@ body.night-mode #events li {
     color: #000;
 }
 
+#countdown-container {
+    text-align: center; /* This will keep the text centered */
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+    display: flex;         /* Use flexbox to control alignment */
+    justify-content: flex-end; /* This moves the content to the right */
+    padding-right: 50px;     /* Adjust for spacing from the right edge */
+}
+
+#countdown {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    background-color: #ffcc00;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#countdown-container h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
 
 
