@@ -26,7 +26,11 @@
         </div>
     </header>
 
-    
+    <!-- Countdown Timer -->
+    <section id="countdown" class="container">
+        <h2>Countdown to Next Big Event!</h2>
+        <div id="countdown-timer">00:00:00</div>
+    </section>
 
     <!-- About Section -->
     <section id="about" class="container">
@@ -62,7 +66,25 @@
         <p id="trivia" class="fun-result"></p>
         
       </div>
-    </section>
+    </section> 
+    <div id="gamified-challenge">
+  <h2>Gamified Challenges</h2>
+  <div id="challenge-description">Complete challenges to earn points!</div>
+  <div id="current-challenge">
+    <p>Challenge: Solve this trivia question!</p>
+    <button id="start-challenge-btn">Start Challenge</button>
+    <p id="challenge-feedback"></p>
+  </div>
+  <div id="challenge-progress">
+    <p>Challenges Completed: <span id="completed-challenges">0</span></p>
+    <p>Your Points: <span id="user-points">0</span></p>
+  </div>
+  <div id="leaderboard">
+    <h3>Leaderboard</h3>
+    <ul id="leaderboard-list"></ul>
+  </div>
+</div>
+
 
  
 
@@ -81,8 +103,12 @@
             </div>
             <div class="team-member">
                 <h4>Yanick</h4>
+                <p class="role">Co-Owner</p> 
+                </div>
+                 <div class="team-member">
+                <h4>greenwallcali77</h4>
                 <p class="role">Co-Owner</p>
-            </div>
+                 </div>
         </div>
     </section>
 
@@ -99,11 +125,14 @@
     <script src="script.js"></script>
 </body>
 
+</html>
+<!-- Coming Soon Section -->
+<section id="coming-soon" class="container">
+    <h2>More Coming Soon...</h2>
+    <p class="description"></p>
+    <ul>
         
         
         <li></li>
     </ul>
-</section> 
-<footer>
-</div> <container> Please note that this website is not finished. Report any issues to me on our Discord server.</container>
-</footer>
+</section>
